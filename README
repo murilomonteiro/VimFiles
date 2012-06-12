@@ -1,0 +1,20 @@
+Installation:
+  
+    git clone git://github.com/murilomonteiro/vimfiles.git $HOME/.vim
+
+Create symLinks:
+
+    ln -s $HOME/vimfiles/vimrc $HOME/.vimrc
+    ln -s $HOME/vimfiles/gvimrc $HOME/.gvimrc
+
+Include plugins:
+
+    Just clone a repository inside of bundle directory, pathogen automatic load plugins for you.
+
+Update Script:
+  
+    Put the update_vim_bundles in your $PATH and you can update all submodules in your bundle for you.
+
+    git clone git://github.com/taq/vim-bundles-updater
+
+
